@@ -1,0 +1,40 @@
+
+{
+    "name": "𝐓𝐞𝐱𝐭 Uploader 『ᎷΔŞŦᏋᏒ』BOT",
+    "description": "Download videos from various websites using this Telegram bot.",
+    "logo": "https://tinypic.host/images/2025/01/21/Purvi-Cid.jpg",
+    "keywords": [
+        "drm-video-dl",
+        "video-extract",
+        "pyrogram"
+    ],
+    "repository": "https://github.com/Master/DRM",
+    "success_url": "https://t.me/+taZCy5OkoMUwNzI9",
+    "stack": "container",
+    "env": {
+        "API_ID": {
+            "description": "Enter your Telegram API ID.",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "Enter your Telegram API Hash.",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "Enter your Telegram Bot Token.",
+            "required": true
+        },
+        "AUTH_USERS": {
+            "description": "Enter your authorized user IDs, e.g., 5680454765,2400792217,2485462127,...(Seprate by Comma) ",
+            "required": true
+        }
+    },
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "standard-2x"
+        }
+    },
+    "addons": [],
+    "buildpacks": []
+}

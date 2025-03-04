@@ -1,0 +1,10 @@
+requests 
+pycryptodomex  
+aiofiles
+aiohttp
+asyncio
+pyrofork
+TgCrypto==1.2.5
+cloudscraper
+bs4
+yt-dlp==2024.08.06
